@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/140/trunk/SafetyCar/src/br/com/dimag/safetycar/data
+END
+RepositoryOrdemServico.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/140/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryOrdemServico.java
+END
+RepositoryCliente.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/68/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryCliente.java
+END
+RepositoryEndereco.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/116/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryEndereco.java
+END
+RepositoryFornecedor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryFornecedor.java
+END
+RepositoryUsuario.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/139/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryUsuario.java
+END
+RepositoryUF.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryUF.java
+END
+RepositoryPessoa.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryPessoa.java
+END
+RepositoryServico.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/139/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryServico.java
+END
+RepositoryAutomovel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/88/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryAutomovel.java
+END
+RepositoryFuncionario.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/140/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryFuncionario.java
+END
+RepositoryProduto.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/RepositoryProduto.java
+END

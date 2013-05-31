@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/74/trunk/SafetyCar/src/br/com/dimag/safetycar/exception
+END
+DadosInsuficientesException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/22/trunk/SafetyCar/src/br/com/dimag/safetycar/exception/DadosInsuficientesException.java
+END
+FacadeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/22/trunk/SafetyCar/src/br/com/dimag/safetycar/exception/FacadeException.java
+END
+ValidatorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/74/trunk/SafetyCar/src/br/com/dimag/safetycar/exception/ValidatorException.java
+END
+DataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/32/trunk/SafetyCar/src/br/com/dimag/safetycar/exception/DataException.java
+END

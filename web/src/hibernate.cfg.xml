@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost/safetycar</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.connection.username">safety</property>
+		<property name="hibernate.connection.password">car</property>
+		
+		<property name="transaction.factory_class">
+		org.hibernate.transaction.JDBCTransactionFactory</property>
+		
+		<!-- JDBC connection pool (use the built-in) -->
+		<property name="hibernate.connection.pool_size">3</property>
+		
+		<!-- Enable Hibernate's automatic session context management -->
+		<property name="hibernate.current_session_context_class">thread</property>
+		
+		<!-- Disable the second-level cache -->
+		<property name="hibernate.cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+		
+		<!-- this will show us all sql statements -->
+		<property name="hibernate.show_sql">true</property>
+		<!-- validate | update | create | create-drop -->
+		<property name="hibernate.hbm2ddl.auto" >update</property>
+		
+		<mapping class="br.com.dimag.safetycar.model.Cliente"/>
+		<mapping class="br.com.dimag.safetycar.model.Fornecedor"/>
+		<mapping class="br.com.dimag.safetycar.model.Automovel"/>
+		<mapping class="br.com.dimag.safetycar.model.UF"/>
+		<mapping class="br.com.dimag.safetycar.model.Endereco"/>
+		<mapping class="br.com.dimag.safetycar.model.Pessoa"/>
+		<mapping class="br.com.dimag.safetycar.model.Funcionario"/>
+		<mapping class="br.com.dimag.safetycar.model.Produto"/>
+		<mapping class="br.com.dimag.safetycar.model.Servico"/>
+		<mapping class="br.com.dimag.safetycar.model.OrdemServico"/>
+		<mapping class="br.com.dimag.safetycar.model.Usuario"/>
+	</session-factory>
+</hibernate-configuration>

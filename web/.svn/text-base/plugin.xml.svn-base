@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="br.com.dimag.safetycar.SafetyCarApplication">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="br.com.dimag.safetycar.Perspective"
+            id="SafetyCar.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="Mailboxes"
+            allowMultiple="true"
+            icon="icons/sample3.gif"
+            class="br.com.dimag.safetycar.gui.views.NavigationView"
+            id="SafetyCar.navigationView">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.ClienteView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.client"
+            name="Cadastro de Cliente">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.ClienteListView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.clientList"
+            name="Lista de Cliente">
+       </view>
+       <view
+             allowMultiple="false"
+             class="br.com.dimag.safetycar.gui.views.OSView"
+             icon="icons/sample3.gif"
+             id="SafetyCar.os"
+             name="Cadastro de OS">
+       </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.MainView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.main"
+            name="Inicio">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.AutomovelView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.automovel"
+            name="Cadastro de Automovel">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.AutomovelListView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.automovelList"
+            name="Lista Automovel">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.OSListView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.osList"
+            name="Lista de Ordem de Serviço">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.ProdutoView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.produto"
+            name="Cadastro de Produto">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.ProdutoListView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.produtoList"
+            name="Lista Produto">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.ServicoView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.servico"
+            name="Cadastro de Serviço">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.ServicoListView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.servicoList"
+            name="Lista Serviço">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.UsuarioView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.usuario"
+            name="Cadastro de Usuario">
+      </view>
+      <view
+            allowMultiple="false"
+            class="br.com.dimag.safetycar.gui.views.UsuarioListView"
+            icon="icons/sample3.gif"
+            id="SafetyCar.usuarioList"
+            name="Lista Usuario">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            name="Abrir Cadastro de Cliente"
+            description="Abrir Cadastro de Cliente"
+            categoryId="SafetyCar.category"
+            id="SafetyCar.client">
+      </command>
+      <command
+            name="Fechar Aplicação"
+            description="Fechar Aplicação"
+            categoryId="SafetyCar.category"
+            id="SafetyCar.exit">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="SafetyCar.client"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+2">
+      </key>
+      <key
+            commandId="SafetyCar.openMessage"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="CTRL+3">
+      </key>
+      <key
+            commandId="org.eclipse.ui.file.exit"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="ESC">
+      </key>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="SafetyCar.application"
+            name="Safety Car">
+         <property
+               name="aboutText"
+               value="DIMAG Safety Car created by Gustavo Porpino, Augusto Pelzer, Mario Duarte e Diego Schmith.">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/sample2.gif">
+         </property>
+         <property
+               name="aboutImage"
+               value="product_lg.gif">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.splashHandlers">
+      <splashHandler
+            class="safetycar.splashHandlers.InteractiveSplashHandler"
+            id="safetycar.splashHandlers.interactive">
+      </splashHandler>
+      <splashHandlerProductBinding
+            productId="SafetyCar.product"
+            splashId="safetycar.splashHandlers.interactive">
+      </splashHandlerProductBinding>
+   </extension>
+
+</plugin>

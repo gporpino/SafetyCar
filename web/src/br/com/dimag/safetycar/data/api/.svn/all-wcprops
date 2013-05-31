@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/135/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api
+END
+IRepositoryFornecedor.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryFornecedor.java
+END
+IRepositoryUsuario.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/127/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryUsuario.java
+END
+IRepositoryServico.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryServico.java
+END
+IRepositoryPessoa.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryPessoa.java
+END
+IRepositoryUF.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryUF.java
+END
+IRepositoryAutomovel.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/52/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryAutomovel.java
+END
+IRepositoryProduto.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryProduto.java
+END
+IRepositoryFuncionario.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryFuncionario.java
+END
+IRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/52/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepository.java
+END
+IRepositoryOrdemServico.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/52/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryOrdemServico.java
+END
+IRepositoryCliente.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/52/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryCliente.java
+END
+IRepositoryEndereco.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/data/api/IRepositoryEndereco.java
+END

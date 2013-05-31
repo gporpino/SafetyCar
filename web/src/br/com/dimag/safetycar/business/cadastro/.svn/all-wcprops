@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/137/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro
+END
+CadastroOrdemServico.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/117/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroOrdemServico.java
+END
+CadastroCliente.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/44/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroCliente.java
+END
+CadastroEndereco.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/116/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroEndereco.java
+END
+CadastroFornecedor.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroFornecedor.java
+END
+CadastroUsuario.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/137/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroUsuario.java
+END
+CadastroUF.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroUF.java
+END
+CadastroServico.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/111/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroServico.java
+END
+CadastroPessoa.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroPessoa.java
+END
+CadastroAutomovel.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/44/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroAutomovel.java
+END
+CadastroProduto.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/53/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroProduto.java
+END
+CadastroFuncionario.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/85/trunk/SafetyCar/src/br/com/dimag/safetycar/business/cadastro/CadastroFuncionario.java
+END
